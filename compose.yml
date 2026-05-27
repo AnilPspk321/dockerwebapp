@@ -10,7 +10,7 @@ services:
     networks:
       - mynetwork
 
-  application:
+ application:
     image: anilpappala/project:app
     ports:
       - "1111:8080"
